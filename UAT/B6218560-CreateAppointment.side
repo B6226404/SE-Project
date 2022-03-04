@@ -1,0 +1,983 @@
+{
+  "id": "692d4066-07dc-4231-9ed6-b213957b6341",
+  "version": "2.0",
+  "name": "B6218560-CreateAppointment",
+  "url": "http://localhost:3000/CreateAppointment",
+  "tests": [{
+    "id": "283fb5de-2fd7-4e5b-9c88-42fc25d630ec",
+    "name": "ฺB6218560 - บันทึกข้อมูลสำเร็จ",
+    "commands": [{
+      "id": "c0cca664-d23b-4f0a-b424-a66fde271a76",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/CreateAppointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b877fbb-7f30-40bc-8515-82e680607e24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x735",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "990e257d-65a2-4952-8efd-4820db15bde4",
+      "comment": "",
+      "command": "click",
+      "target": "name=PatientID",
+      "targets": [
+        ["name=PatientID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='PatientID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87aea2d4-5126-4db5-a93c-12c86ed44553",
+      "comment": "",
+      "command": "select",
+      "target": "name=PatientID",
+      "targets": [],
+      "value": "label=1000000000001"
+    }, {
+      "id": "1f7dcfe4-0099-42ed-a5a9-8d4ea80b64b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=EmployeeID",
+      "targets": [
+        ["name=EmployeeID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='EmployeeID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f99354e-ad85-4692-8295-ca01b8442121",
+      "comment": "",
+      "command": "select",
+      "target": "name=EmployeeID",
+      "targets": [],
+      "value": "label=แพทย์หญิงนรมน ไทยคณา"
+    }, {
+      "id": "3d97949d-f732-44ed-82c2-fc5ff69b79ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=ClinicID",
+      "targets": [
+        ["name=ClinicID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='ClinicID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd173b3-1db3-4597-8046-bb018c278438",
+      "comment": "",
+      "command": "select",
+      "target": "name=ClinicID",
+      "targets": [],
+      "value": "label=อายุรกรรม"
+    }, {
+      "id": "099345e3-7f16-41a7-9c1a-81ab0ae342cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1d3c6f-3ef6-412e-a315-65f209068c66",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99e6019-ec9a-4923-846d-1fcc4af49b0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "f89a79a1-c7dc-4ea9-bca0-305efac804ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "32bf2854-eff7-40ea-ae45-39af9993458f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "82891cf5-7d53-470c-89e5-f2c36e892238",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e5cf306-f62f-4abf-a655-c844083a58d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e2bfee-797a-4e94-b3bc-d436552d23ff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "70f3e23e-316f-405b-8897-150e9ddc790d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root",
+      "targets": [
+        ["css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root", "css:finder"],
+        ["xpath=//div[5]/div[5]/button/span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc123731-909e-411f-a6f3-6b72d3d9c032",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPickersClock-squareMask",
+      "targets": [
+        ["css=.MuiPickersClock-squareMask", "css:finder"],
+        ["xpath=//div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cca200d-7910-4591-b4c1-65f592404773",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b28b444-2238-41fc-8a34-6f98dc2f4cbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aeb19ff-17f0-42bb-b282-03c785b21d47",
+      "comment": "",
+      "command": "click",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f00fdd-5e19-48c0-8cf9-5dbadfbff997",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a59f009-a12e-4fc0-9589-9d133c2c2c09",
+      "comment": "",
+      "command": "type",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ล้างแผล"
+    }, {
+      "id": "34dba6f9-3efc-49bb-a020-0b2bf298ad33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0de108b-5ff4-4161-8e66-059fb98d1c51",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f596f2d-7900-4cd8-a997-c985d5ab3220",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-root",
+      "targets": [
+        ["css=.MuiAlert-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa4d730-e5f9-4a94-a9e8-73b528aac70f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Success\\nบันทึกข้อมูลสำเร็จ"
+    }]
+  }, {
+    "id": "5f4bb818-499d-4378-87a0-e3c194506b51",
+    "name": "B6218560 - ตรวจสอบหมายเหตุการนัดต้องมีการกรอกข้อมูล",
+    "commands": [{
+      "id": "296770ec-7264-4119-a142-4535847a2e33",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/CreateAppointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "353ac735-f33f-4545-a796-9be27b1516e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x735",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07745642-f750-48ca-9fb8-75b2315ca6dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=PatientID",
+      "targets": [
+        ["name=PatientID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='PatientID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec97750-9061-416a-b6f5-06facf511342",
+      "comment": "",
+      "command": "select",
+      "target": "name=PatientID",
+      "targets": [],
+      "value": "label=1000000000001"
+    }, {
+      "id": "1b7cfff7-19d4-49c3-bcd8-f236da35aa0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=EmployeeID",
+      "targets": [
+        ["name=EmployeeID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='EmployeeID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101aa7b5-8e14-4a5b-a8bb-1d3e78848ecf",
+      "comment": "",
+      "command": "select",
+      "target": "name=EmployeeID",
+      "targets": [],
+      "value": "label=แพทย์หญิงนรมน ไทยคณา"
+    }, {
+      "id": "552f2118-0526-4f6c-8d12-42606b2dade8",
+      "comment": "",
+      "command": "click",
+      "target": "name=ClinicID",
+      "targets": [
+        ["name=ClinicID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='ClinicID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f88c3d9-ae69-4e01-a874-12817cb663bd",
+      "comment": "",
+      "command": "select",
+      "target": "name=ClinicID",
+      "targets": [],
+      "value": "label=อายุรกรรม"
+    }, {
+      "id": "55a5d56e-4017-4948-a699-2b56a87a4c02",
+      "comment": "",
+      "command": "click",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62ee83f7-3142-40d3-8bb2-61d3fbcfc989",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "546b963b-db9a-4cc5-b2e0-7e2458eab9a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "8"
+    }, {
+      "id": "ec9ad03e-eb26-4dfe-9ef3-180aff61014a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf905ab4-df96-422f-97cb-281eadd40e73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4db3fed-aa83-4ff6-aaf1-e335969ac85e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiIconButton-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiIconButton-root:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd0fa1f1-f6ba-4e7b-9e65-725eac4a52c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root",
+      "targets": [
+        ["css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root", "css:finder"],
+        ["xpath=//div[5]/div[5]/button/span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48efcd0b-d120-4b9f-9c6d-fe3a5002ef9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33f649bf-3450-49ba-a42a-c53972edcac4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-containedPrimary",
+      "targets": [
+        ["css=.MuiButton-containedPrimary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'บันทึก')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd2950ae-bf8a-408a-8c0f-d48346baeeb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-containedPrimary",
+      "targets": [
+        ["css=.MuiButton-containedPrimary", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'บันทึก')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b03db5a1-7e1c-4f02-bc95-f273c4e9f0a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-containedPrimary",
+      "targets": [
+        ["css=.MuiButton-containedPrimary", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'บันทึก')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eeb5730-fa06-459b-86e1-e8d8f8e006b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-root",
+      "targets": [
+        ["css=.MuiAlert-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30439cf-f30a-4612-90f7-9f65e7405c2e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Error\\nบันทึกข้อมูลไม่สำเร็จ: กรุณากรอกหมายเหตุการนัด"
+    }]
+  }, {
+    "id": "f2e8cccd-f655-4753-aa52-8eafcdc36653",
+    "name": "B6218560 - ตรวจสอบเวลาต้องเป็นอนาคต",
+    "commands": [{
+      "id": "cc3c469e-b002-40ac-956e-a53eb65ed495",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/CreateAppointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f78e06f-323e-4d11-be9e-a4e7aab6c43f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x739",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ab0993c-bf5e-4900-acaf-a7762edf7421",
+      "comment": "",
+      "command": "click",
+      "target": "name=PatientID",
+      "targets": [
+        ["name=PatientID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='PatientID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a189f95-50f0-4e0b-b798-4f4761a2fc54",
+      "comment": "",
+      "command": "select",
+      "target": "name=PatientID",
+      "targets": [],
+      "value": "label=1000000000001"
+    }, {
+      "id": "34afde59-d03a-4dfb-a047-b8f37c6d6cfe",
+      "comment": "",
+      "command": "click",
+      "target": "name=EmployeeID",
+      "targets": [
+        ["name=EmployeeID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='EmployeeID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5752f4c-bd20-4aff-b678-16ac731bbd56",
+      "comment": "",
+      "command": "select",
+      "target": "name=EmployeeID",
+      "targets": [],
+      "value": "label=แพทย์หญิงนรมน ไทยคณา"
+    }, {
+      "id": "a3c5e02f-f2cb-4c6e-a563-505396bc261c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ClinicID",
+      "targets": [
+        ["name=ClinicID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='ClinicID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeeb8f64-3898-472d-9839-86060a8cc57f",
+      "comment": "",
+      "command": "select",
+      "target": "name=ClinicID",
+      "targets": [],
+      "value": "label=อายุรกรรม"
+    }, {
+      "id": "a52a6b59-d127-42e9-8f1a-f8bbc44d648f",
+      "comment": "",
+      "command": "click",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b002ad1-2204-4c57-8f31-122fe64fd847",
+      "comment": "",
+      "command": "type",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "b27ed714-2d60-4c16-81b8-52cf4a08d718",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiInputAdornment-root path:nth-child(1)",
+      "targets": [
+        ["css=.MuiInputAdornment-root path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab742eb1-b6cc-46d2-99f9-aba41d6ea7fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPickersCalendar-week:nth-child(1) > div:nth-child(3) > .MuiButtonBase-root",
+      "targets": [
+        ["css=.MuiPickersCalendar-week:nth-child(1) > div:nth-child(3) > .MuiButtonBase-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ec6374-a5eb-46c2-96cc-f254b68704bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38445cb7-1963-445f-8e99-f6231672a50e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d1b0b6-82e2-4c8d-a7a4-c5daf2290bd1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d3abb23-b725-499d-acd8-4d7b2db4b93c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ล้างแผล"
+    }, {
+      "id": "78ec77d9-e1e3-414f-b3b2-2c23d16a2e4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0de71fd4-2ef9-43e0-9099-8010c83039f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "054b1f0c-97c7-4647-b66a-e04260b79aea",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Error\\nบันทึกข้อมูลไม่สำเร็จ: กรุณาเลือกวันเวลานัดหมายที่เป็นอนาคต"
+    }]
+  }, {
+    "id": "ca415f6a-0e5a-48be-873e-03e7d3bc8e2c",
+    "name": "B6218560 - ตรวจสอบหมายเลขห้องตรวจต้องเป็นเลขที่มากกว่า 0",
+    "commands": [{
+      "id": "bbb8ed1e-6329-4088-aee5-2365b9b28293",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/CreateAppointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80aeedc5-11b4-4111-8399-cd3f164d1646",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x735",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7c72a8e-04f1-4b8b-8da7-653ac1fa8aed",
+      "comment": "",
+      "command": "click",
+      "target": "name=PatientID",
+      "targets": [
+        ["name=PatientID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='PatientID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa67bef2-ae49-44e5-87ae-8fca17495495",
+      "comment": "",
+      "command": "select",
+      "target": "name=PatientID",
+      "targets": [],
+      "value": "label=1000000000001"
+    }, {
+      "id": "e6173568-bc18-4e7d-8ccb-28fdbc15798b",
+      "comment": "",
+      "command": "click",
+      "target": "name=EmployeeID",
+      "targets": [
+        ["name=EmployeeID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='EmployeeID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b542087-baee-4709-bdcc-af1cd0df54d8",
+      "comment": "",
+      "command": "select",
+      "target": "name=EmployeeID",
+      "targets": [],
+      "value": "label=แพทย์หญิงนรมน ไทยคณา"
+    }, {
+      "id": "581f8bca-241f-4fec-a3b3-4521521f1a19",
+      "comment": "",
+      "command": "click",
+      "target": "name=ClinicID",
+      "targets": [
+        ["name=ClinicID", "name"],
+        ["css=.Mui-focused > .MuiSelect-root", "css:finder"],
+        ["xpath=//select[@name='ClinicID']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4414a5c-2145-49c5-879f-8ae092ee944a",
+      "comment": "",
+      "command": "select",
+      "target": "name=ClinicID",
+      "targets": [],
+      "value": "label=อายุรกรรม"
+    }, {
+      "id": "7a677374-20fe-484e-aab6-c9ebc130b4ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5240176-7371-40ee-bcf3-67a2ed73b9cc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiInputAdornment-root .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiInputAdornment-root .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "071293f6-43ac-49c6-a574-76f154708e21",
+      "comment": "",
+      "command": "type",
+      "target": "id=RoomNumber",
+      "targets": [
+        ["id=RoomNumber", "id"],
+        ["css=#RoomNumber", "css:finder"],
+        ["xpath=//input[@id='RoomNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-7"
+    }, {
+      "id": "e723c155-62ab-46f4-bd86-fd577266ccf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiInputAdornment-root .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiInputAdornment-root .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "06b58c30-1380-44bf-b702-bde5ed5032c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiInputAdornment-root .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiInputAdornment-root .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c22d4c9d-174b-4963-b66e-faf7cda69afc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3) .MuiSvgIcon-root", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "293deec6-4b2d-484a-b5ae-20fd5d49a915",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root",
+      "targets": [
+        ["css=.MuiPickersCalendar-week:nth-child(5) > div:nth-child(5) .MuiTypography-root", "css:finder"],
+        ["xpath=//div[5]/div[5]/button/span/p", "xpath:position"],
+        ["xpath=//p[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4eda1a8-a5c9-412a-91ce-a7fdccff696b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07a0daec-d5f2-4696-9443-e291e9fef2e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-textPrimary:nth-child(2) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d9a4634-7c07-4769-a568-e97f021d17db",
+      "comment": "",
+      "command": "click",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd993f79-53c5-49df-9b7a-8dd03a7f9053",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c778e1-7f68-4a75-8b1f-70ea639d26e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Note",
+      "targets": [
+        ["id=Note", "id"],
+        ["css=#Note", "css:finder"],
+        ["xpath=//input[@id='Note']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[7]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ฉีดวัคซีน"
+    }, {
+      "id": "dcedb7f6-2608-4569-afe2-5267c200bfbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2acf03e4-a603-4199-b699-c508a79d4c53",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton-containedPrimary > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-containedPrimary > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/form/div/div[2]/div[9]/button/span", "xpath:idRelative"],
+        ["xpath=//div[9]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a1d6155-209c-4c5e-a4ba-2073029c0776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAlert-root",
+      "targets": [
+        ["css=.MuiAlert-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d679c8c-6eda-4db7-b601-61eea3ed3bdd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.MuiAlert-message",
+      "targets": [
+        ["css=.MuiAlert-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Error\\nบันทึกข้อมูลไม่สำเร็จ: กรุณากรอกหมายเลขห้องตรวจที่มีค่ามากกว่า 0"
+    }]
+  }],
+  "suites": [{
+    "id": "a0e0591f-0222-4147-9cd0-404445bc8b84",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/", "http://localhost:3000/CreateAppointment"],
+  "plugins": []
+}
